@@ -63,3 +63,5 @@ kubectl create -f sklearn-basic-logger.yaml
 ```
 
 3. Now make a request to the inference service and check the logs of the message-dumper pod(container: user-container). Here you should be able to see the request and response logs.
+
+#### **NOTE:** This logger is basically an implementation based on KNative's eventing.
